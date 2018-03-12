@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.kibsoft.MyFragment.FragmentOne">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        />
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/etAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        />
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/etOccupation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Occupation"
+        />
+    <android.support.v7.widget.ButtonBarLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/bTry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Try me"
+            />
+
+    </android.support.v7.widget.ButtonBarLayout>
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Display Here" />
+</LinearLayout>
+
+</FrameLayout>
